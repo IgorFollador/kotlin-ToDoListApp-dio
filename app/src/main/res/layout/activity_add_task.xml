@@ -73,6 +73,7 @@
         app:startIconDrawable="@drawable/ic_timer"
         android:hint="@string/label_hour" >
         <com.google.android.material.textfield.TextInputEditText
+
             android:layout_width="match_parent"
             android:inputType="none"
             android:focusable="false"
@@ -80,6 +81,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_cancel"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
